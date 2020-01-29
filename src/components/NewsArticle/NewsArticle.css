@@ -1,0 +1,24 @@
+.newsCard {
+  background-color: #FFF;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 70vh;
+  margin: 1em;
+  width: 35%;
+}
+
+img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.newsHeadline {
+  
+}
+
+.footerInfo {
+  bottom: 0;
+}
