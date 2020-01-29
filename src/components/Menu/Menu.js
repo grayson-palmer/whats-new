@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Menu.css'
 
-// MENU COMPONENT CODE GOES HERE
+class Menu extends Component {
+  
+}
 
 export default Menu;
