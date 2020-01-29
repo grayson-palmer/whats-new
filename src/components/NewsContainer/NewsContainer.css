@@ -1,0 +1,7 @@
+.newsContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 100vh;
+  overflow: scroll;
+}
