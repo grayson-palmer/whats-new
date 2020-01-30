@@ -1,12 +1,12 @@
-.newsCard {
+.news-card {
   background-color: #FFF;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   justify-content: space-between;
   height: 70vh;
-  margin: 1em;
-  width: 35%;
+  margin: 0em 1em 1em;
+  width: 45%;
 }
 
 img {
@@ -15,10 +15,21 @@ img {
   object-fit: cover;
 }
 
-.newsHeadline {
-  
+.footer-info {
+  background-color: #B46AF1;
+  width: 100%;
+  font-size: 1.5em;
 }
 
-.footerInfo {
-  bottom: 0;
+.arrow-img {
+  height: auto;
+  width: 4em;
+}
+
+.url-link {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
 }
