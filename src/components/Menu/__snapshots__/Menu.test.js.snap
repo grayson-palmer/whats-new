@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Menu  1`] = `
+exports[`Menu should present on the dom 1`] = `
 <nav>
   <h1>
     What's 
