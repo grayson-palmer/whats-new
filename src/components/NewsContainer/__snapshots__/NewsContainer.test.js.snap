@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsArticle should be an instance of component 1`] = `
+<section
+  className="newsContainer"
+>
+  <NewsArticle
+    body="Purp dude is back"
+    headline="Thanos Back Again"
+    img="imgPath"
+    key="1"
+    link="urlPath"
+  />
+</section>
+`;
