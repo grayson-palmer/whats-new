@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu  1`] = `
+<nav>
+  <h1>
+    What's 
+    <span
+      className="new"
+    >
+      New?
+    </span>
+  </h1>
+  <ul
+    className="nav-items"
+  >
+    <li
+      className="nav-category"
+      onClick={[Function]}
+    >
+      <img
+        alt="local news"
+        src="location.png"
+      />
+      Local News
+    </li>
+    <li
+      className="nav-category"
+      onClick={[Function]}
+    >
+      <img
+        alt="technology"
+        src="lightbulb.png"
+      />
+      Technology
+    </li>
+    <li
+      className="nav-category"
+      onClick={[Function]}
+    >
+      <img
+        alt="entertainment"
+        src="tickets.png"
+      />
+      Entertainment
+    </li>
+    <li
+      className="nav-category"
+      onClick={[Function]}
+    >
+      <img
+        alt="science"
+        src="rocket.png"
+      />
+      Science
+    </li>
+    <li
+      className="nav-category"
+      onClick={[Function]}
+    >
+      <img
+        alt="health"
+        src="health.png"
+      />
+      Health
+    </li>
+  </ul>
+</nav>
+`;
