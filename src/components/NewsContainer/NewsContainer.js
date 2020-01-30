@@ -3,7 +3,7 @@ import './NewsContainer.css'
 import NewsArticle from '../NewsArticle/NewsArticle';
 
 const NewsContainer = (props) => {
-  const localNews = props.local.map(news => {
+  const newsType = props.newsType.map(news => {
     return <NewsArticle 
       key={news.id}
       headline={news.headline}
@@ -14,7 +14,7 @@ const NewsContainer = (props) => {
   })
   return (
     <section className='newsContainer'>
-      {localNews}
+      {newsType}
     </section>
   )
 }
