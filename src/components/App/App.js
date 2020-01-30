@@ -24,7 +24,6 @@ class App extends Component {
   }
 
   handleChange = (newsString) => {
-    console.log(this.state);
     let newsType = this.state.articles[newsString];
     this.setState({chosen: newsType});
   }
